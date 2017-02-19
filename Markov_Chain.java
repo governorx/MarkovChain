@@ -7,7 +7,7 @@ public class Markov_Chain{
     public static void main(String[] args){
         String s = "";
         try{
-            File f = new File("raindrop.txt");
+            File f = new File("dr.suess.txt");
             Scanner sc = new Scanner(f);
             while(sc.hasNext()){
                 s+=" " + sc.next();
